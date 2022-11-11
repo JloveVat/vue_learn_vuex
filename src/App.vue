@@ -1,26 +1,26 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+// import Home from './views/01_核心一State-基本使用.vue'
+// import Home from './views/02_核心一State-mapState映射.vue'
+// import Home from './views/03_核心二Getters-基本使用.vue'
+// import Home from './views/04_核心二Getters-mapGetters映射.vue'
+// import Home from './views/05_核心三Mutation-基本使用.vue'
+// import Home from './views/06_核心三Mutation-mapMutations映射.vue'
+// import Home from './views/07_核心四Action-基本使用.vue'
+// import Home from './views/08_核心四Action-mapActions映射.vue'
+// import Home from './views/09_核心四Action-发送网络请求.vue'
+import Home from './views/Home.vue'
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<template>
+  <div class="app">
+    <h2>AppContent</h2>
+    <h2>当前计数: {{ $store.state.counter }}</h2>
+    
+    <hr>
+    <Home></Home>
+  </div>
+</template>
+
+<style scoped>
+
 </style>
