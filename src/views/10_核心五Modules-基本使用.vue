@@ -20,7 +20,7 @@ export default {
   <div class="home">
     <h2>Home Page</h2>
     <ul>
-      <template v-for="item in $store.state.banners" :key="item.acm">
+      <template v-for="item in $store.state.home.banners" :key="item.acm">
         <li>{{ item.title }}</li>
       </template>
     </ul>

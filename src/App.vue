@@ -8,6 +8,8 @@
 // import Home from './views/07_核心四Action-基本使用.vue'
 // import Home from './views/08_核心四Action-mapActions映射.vue'
 // import Home from './views/09_核心四Action-发送网络请求.vue'
+// import Home from './views/10_核心五Modules-基本使用.vue'
+// import Home from './views/11_核心五Modules-默认模块化.vue'
 import Home from './views/Home.vue'
 </script>
 
